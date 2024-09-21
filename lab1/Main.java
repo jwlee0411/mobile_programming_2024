@@ -96,8 +96,8 @@ public class Main {
         m3.print(); System.out.println();
         MyMatrix m4 = new MyMatrix(A);
         m4.print(); System.out.println();
-        m2 = m4; // polymorphism: Matrix covers MyMatrix!!
-        m2.print(); System.out.println();
+        Matrix m5 = m4.mult(m4);
+        m5.print(); System.out.println("");
     }
 }
 
@@ -118,6 +118,24 @@ class MyMatrix extends Matrix {
     public MyMatrix() { super(); }
     public MyMatrix(int cy, int cx) { super(cy, cx); }
     public MyMatrix(int[][] a) { super(a); }
+
+    public MyMatrix mult(MyMatrix obj){
+        int dy = get_dy();
+        int dx = obj.get_dx();
+        int commonDim = obj.get_dy();
+
+        int[][] result = new int[dy][dx];
+
+        for (int i = 0; i < dy; i++) {
+            for (int j = 0; j < dx; j++) {
+                for (int k = 0; k < commonDim; k++) {
+                    result[i][j] += get_array()[i][k] * obj.get_array()[k][j];
+                }
+            }
+        }
+
+        return new MyMatrix(result);
+    }
     public void print() {
         int dy = get_dy();
         int dx = get_dx();
