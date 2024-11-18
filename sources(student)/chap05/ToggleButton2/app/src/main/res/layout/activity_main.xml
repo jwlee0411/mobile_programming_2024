@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="체크박스 1"
+        android:layout_gravity="center"
+        android:buttonTint="@color/colorCheckBox1"/>
+
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="체크박스 2"
+        android:layout_gravity="center"
+        android:buttonTint="@color/colorCheckBox2"/>
+
+    <CheckBox
+        android:id="@+id/checkbox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="체크박스 3"
+        android:layout_gravity="center"
+        android:buttonTint="@color/colorCheckBox3"/>
+
+    <CheckBox
+        android:id="@+id/checkbox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="체크박스 4"
+        android:layout_gravity="center"
+        android:buttonTint="@color/colorCheckBox4"/>
+
+    <CheckBox
+        android:id="@+id/checkbox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="체크박스 5"
+        android:layout_gravity="center"
+        android:buttonTint="@color/colorCheckBox5"/>
+
+</LinearLayout>

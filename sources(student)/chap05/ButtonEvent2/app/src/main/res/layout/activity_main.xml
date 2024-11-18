@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- 옷 이미지를 표시하는 ImageView -->
+    <ImageView
+        android:id="@+id/clothingImageView"
+        android:layout_width="387dp"
+        android:layout_height="471dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/img"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <!-- 4개의 색상 버튼 -->
+    <Button
+        android:id="@+id/colorButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color 1"
+        android:layout_below="@id/clothingImageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/colorButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color 2"
+        android:layout_below="@id/clothingImageView"
+        android:layout_toEndOf="@id/colorButton1"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/colorButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color 3"
+        android:layout_below="@id/clothingImageView"
+        android:layout_toEndOf="@id/colorButton2"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/colorButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color 4"
+        android:layout_below="@id/clothingImageView"
+        android:layout_toEndOf="@id/colorButton3"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_view_cart"
+        android:icon="@drawable/ic_shopping_cart"
+        android:onClick="show_cart"
+        android:title="장바구니 보기"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>

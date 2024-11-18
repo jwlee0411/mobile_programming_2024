@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GreenButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">#00FF00</item> <!-- 배경 색상을 초록색(#00FF00)으로 설정 -->
+    </style>
+
+</resources>

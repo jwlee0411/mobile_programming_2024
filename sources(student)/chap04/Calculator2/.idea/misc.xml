@@ -1,0 +1,17 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/document/book/android/android(12)/sources/chap04.new/Calculator2/app/src/main/res/layout/activity_main.xml" value="0.2046875" />
+        <entry key="..\:/document/book/android/android(12)/sources/chap04/Calculator2/app/src/main/res/layout/activity_main.xml" value="0.2884963768115942" />
+        <entry key="..\:/documents/Book/android/android 12.0/sources/chap03/Calculator2/app/src/main/res/layout/activity_main.xml" value="0.1381340579710145" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
